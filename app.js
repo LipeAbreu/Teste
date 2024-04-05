@@ -23,14 +23,13 @@ console.log(`O seu personagem é o ${personagens[resultadoDoSorteio]}`);
 sorteio(poderes);
 console.log(`O seu poder é o ${poderes[resultadoDoSorteio]}`);
 
-
 function operaçãoSecreta(a, b) {
     let resultadoSecreto = (a + b);
     console.log(`o resultado de ${a} mais ${b}, é igual a ${resultadoSecreto}`);
 }
 
 function sorteio(lista){
-let quantidadeDeElementos = lista.lenght;
-let resultadoDoSorteio = parseInt(Math.random() * quantidadeDeElementos + 1);
-return resultadoDoSorteio;
+    let quantidadeDeElementos = lista.lenght;
+    let resultadoDoSorteio = parseInt(Math.random() * quantidadeDeElementos + 1);
+    return resultadoDoSorteio;
 }
