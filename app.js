@@ -1,4 +1,4 @@
-let nome = parseInt(prompt('digite o seu nome'));
+let nome = parseFloat(prompt('digite o seu nome'));
 let numero1 = parseInt(prompt('qual o primeiro número'));
 let numero2 = parseInt(prompt('qual o segundo número'));
 let numero3 = parseInt(prompt('qual o terceiro número'));
