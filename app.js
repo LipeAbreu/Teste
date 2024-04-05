@@ -19,9 +19,9 @@ operaçãoSecreta(numero1, numero2);
 operaçãoSecreta(numero3,numero4);
 console.log('Obrigado meu senhor JESUS CRISTO!');
 sorteio(personagens);
-console.log(`O seu personagem é o ${personagens[resultadoDoSorteio]}`);
+console.log(`O seu personagem é o ${resultado}`);
 sorteio(poderes);
-console.log(`O seu poder é o ${poderes[resultadoDoSorteio]}`);
+console.log(`O seu poder é o ${resultado}`);
 
 function operaçãoSecreta(a, b) {
     let resultadoSecreto = (a + b);
@@ -31,6 +31,9 @@ function operaçãoSecreta(a, b) {
 function sorteio(lista){
     let quantidadeDeElementos = lista.lenght;
     let resultadoDoSorteio = parseInt(Math.random() * quantidadeDeElementos + 1);
-    console.log(`${resultadoDoSorteio}`);
-    return resultadoDoSorteio;
+    console.log(`${resultadoDoSorteio}, ${lista[resultadoDoSorteio]}`);
+    let resultado = lista[resultadoDoSorteio];
+    return resultado;
 }
+
+//Obrigado JESUS !!!
