@@ -13,8 +13,10 @@ let poder3 = prompt('Digite o nome de outro um poder ou habilidade');
 let poder4 = prompt('Digite o nome do ultimo poder ou habilidade');
 let personagens = [protagonista, rival, pet, figurante];
 let poderes = [poder1, poder2, poder3, poder4];
+let Observação = ('O Dia Está Lindo!')
 
 console.log(`Olá, ${nome}`);
+console.log(Observação);
 operaçãoSecreta(numero1, numero2);
 operaçãoSecreta(numero3,numero4);
 console.log('Obrigado meu senhor JESUS CRISTO!');
