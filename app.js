@@ -33,8 +33,8 @@ function operaçãoSecreta(a, b) {
 function sorteio(lista){
     let quantidadeDeElementos = lista.lenght;
     let resultadoDoSorteio = parseInt(Math.random() * quantidadeDeElementos + 1);
-    console.log(`${resultadoDoSorteio}, ${lista[resultadoDoSorteio]}`);
     let resultado = lista[resultadoDoSorteio];
+    console.log(`${resultadoDoSorteio}, ${resultado}`);
     return resultado;
 }
 
